@@ -1,2 +1,2 @@
 - [首页](home.md)
-- [Uni-app](uni-app.md)
+- [uni-app](uni-app.md)
