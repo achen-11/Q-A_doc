@@ -45,9 +45,11 @@
     const gitalk = new Gitalk({
       clientID: "88bcf8b11d196aae2470",
       clientSecret: "3d73b771d3defbeae6c99dcd6a013ea7182401a4",
-      repo: "Q-A_doc",
+      repo: "Q_A-doc-repo",
       owner: "achen-11",
       admin: ["achen-11"],
+      id: location.pathname, // 返回当前 URL 的路径部分作为id
+      language:'zh-CN', // 语言
       // facebook-like distraction free mode
       distractionFreeMode: false,
     });
