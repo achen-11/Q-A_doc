@@ -1,6 +1,6 @@
 - [首页](home.md)
 - [css](/css/css.md)
 - uni-app
-    - [uni-app](uni-app.md)
-    - [uView](uView.md)
-    - [uCharts](uCharts.md)
+    - [uni-app](/uni-app/uni-app.md)
+    - [uView](/uni-app/uView.md)
+    - [uCharts](/uni-app/uCharts.md)
