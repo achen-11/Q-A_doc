@@ -9,6 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css" />
+
+
 </head>
 
 <body>
@@ -17,7 +20,8 @@
     window.$docsify = {
       search: "auto", // default
       name: '问题汇总文档',
-      repo: '',
+      nameLink: "/",
+      repo: 'https://github.com/achen-11/Q-A_doc',
       loadSidebar: true,
       subMaxLevel: 4,
       search: {
@@ -34,6 +38,20 @@
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+  <!-- 评论 -->
+  <script>
+    const gitalk = new Gitalk({
+      clientID: "88bcf8b11d196aae2470",
+      clientSecret: "3d73b771d3defbeae6c99dcd6a013ea7182401a4",
+      repo: "https://github.com/achen-11/Q_A-doc-repo",
+      owner: "achen-11",
+      admin: ["achen-11"],
+      // facebook-like distraction free mode
+      distractionFreeMode: false,
+    });
+  </script>
 </body>
 
 </html>
