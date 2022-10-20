@@ -1,4 +1,4 @@
-- [首页](home.md)
+- [首页](/)
 - [css](/css/css.md)
 - uni-app
     - [uni-app](/uni-app/uni-app.md)
