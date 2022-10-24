@@ -28,6 +28,9 @@ uni.navigateTo({url: 'url'})
 
 > 更多详情可前往官网查看: https://uniapp.dcloud.net.cn/api/router.html#navigateto
 
+# 2.uni-app启动微信小程序显示`open IDE x`问题
 
-
+```bash
+一般是appid的问题, 可能是appid不对或者登录的用户没有这个appid的开发权限
+```
 
