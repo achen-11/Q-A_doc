@@ -25,7 +25,8 @@ npm_mirror: https://npm.taobao.org/mirrors/npm/
 以管理员方式运行cmd再执行切换函数即可
 
 ## 5. 安装nvm后出现npm失效的情况
-最简单的方法是下载最新版的nvm, 1.19没有出现这种情况,1.17会出现npm失效的情况,原因是install时没有下载安装对应版本的npm
+最简单的方法是下载**最新版的nvm**, `1.19`没有出现这种情况,`1.17`会出现npm失效的情况<br>
+原因是install时没有下载安装对应版本的npm
 
 其他解决方法:<br>
 1. 到官网查看node对应版本的npm [查看地址](https://nodejs.org/zh-cn/download/releases/)
