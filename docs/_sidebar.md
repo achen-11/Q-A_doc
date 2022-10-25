@@ -6,3 +6,4 @@
     - [uCharts](/uni-app/uCharts.md)
 - node
     - [nvm](/node/nvm.md)
+- [浏览器](/browser/browser.md)
