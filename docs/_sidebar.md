@@ -1,10 +1,11 @@
 - [首页](/)
 - [css](/css/css.md)
+- [JavaScript](/JavaScript/index.md)
 - uni-app
     - [uni-app](/uni-app/uni-app.md)
     - [uView](/uni-app/uView.md)
     - [uCharts](/uni-app/uCharts.md)
-- node
+- Node
     - [nvm](/node/nvm.md)
 - [浏览器](/browser/browser.md)
-- [dayJs](/dayJs/dayjs.md)
+- [DayJs](/dayJs/dayjs.md)
