@@ -55,7 +55,7 @@ server {
 }
 ```
 
-# 4.常用命令
+## 1.4 常用命令
 ```bash
 nginx -s reload # 重新加载nginx
 nginx -t # 检验配置文件语法是否正确
