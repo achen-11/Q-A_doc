@@ -7,5 +7,6 @@
     - [uCharts](/uni-app/uCharts.md)
 - Node
     - [nvm](/node/nvm.md)
+- [Nginx](/Nginx/Nginx.md)
 - [浏览器](/browser/browser.md)
 - [DayJs](/dayJs/dayjs.md)
