@@ -34,3 +34,10 @@ uni.navigateTo({url: 'url'})
 一般是appid的问题, 可能是appid不对或者登录的用户没有这个appid的开发权限
 ```
 
+# 3. uni-app项目常用`.gitignore`配置
+```
+node_modules/
+.project
+unpackage/
+.DS_Store
+```
