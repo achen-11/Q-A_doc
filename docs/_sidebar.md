@@ -1,6 +1,7 @@
 - [首页](/)
 - [css](/css/css.md)
 - [JavaScript](/JavaScript/index.md)
+- [Vue](/Vue/vue.md)
 - uni-app
     - [uni-app](/uni-app/uni-app.md)
     - [uView](/uni-app/uView.md)
