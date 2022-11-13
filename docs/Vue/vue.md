@@ -20,3 +20,27 @@ Vue.directive('clickoutside', {
     }
 });
 ```
+
+# Vue.$set
+
+
+# Vue动态设置页面title
+解决方案:<br>
+通过路由守卫获取router.meta的title属性, 动态设置路由
+```js
+// 路由配置
+const route = [
+    {
+        path: '/test',
+        meta: {
+        }
+
+    }
+]
+
+// 路由守卫
+this.router.beforeEach((to, from, next) => {
+    window.document.title = to.meta.title == undefined ? '默认标题' : to.meta.title
+})
+
+```
