@@ -26,3 +26,9 @@ _getEnv() {
     this.plateForm = 'anonymous';
 }
 ```
+
+# js生成m x n的二维数组
+
+```js
+new Array(m).fill(0).map(() => new Array(n).fill(0))
+```
