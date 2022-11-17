@@ -1,5 +1,5 @@
 # vue
-# Vue自定义事件-点击空白处触发事件
+# 1.Vue自定义事件-点击空白处触发事件
 ```js
 Vue.directive('clickoutside', {
     bind (el, binding) {
@@ -21,10 +21,10 @@ Vue.directive('clickoutside', {
 });
 ```
 
-# Vue.$set
+# 2.Vue.$set
 
 
-# Vue动态设置页面title
+# 3.Vue动态设置页面title
 解决方案:<br>
 通过路由守卫获取router.meta的title属性, 动态设置路由
 ```js
@@ -44,14 +44,15 @@ this.router.beforeEach((to, from, next) => {
 })
 ```
 
-# Vue发布订阅
+# 4.Vue发布订阅
 场景:
 > 
 
-# Vue解决滑动穿透
+# 5.Vue解决滑动穿透
 移动端:
+
     
-# `v-for`在H5和小程序的差异
+# 6.`v-for`在H5和小程序的差异
 `v-for Number`在H5和小程序的表现有差异:
 - 小程序是从**0**开始
 - H5是从**1**开始
