@@ -42,5 +42,16 @@ const route = [
 this.router.beforeEach((to, from, next) => {
     window.document.title = to.meta.title == undefined ? '默认标题' : to.meta.title
 })
-
 ```
+
+# Vue发布订阅
+场景:
+> 
+
+# Vue解决滑动穿透
+移动端:
+    
+# `v-for`在H5和小程序的差异
+`v-for Number`在H5和小程序的表现有差异:
+- 小程序是从**0**开始
+- H5是从**1**开始
