@@ -30,5 +30,8 @@ _getEnv() {
 ## 2.js生成m x n的二维数组
 
 ```js
+// 方案一:
 new Array(m).fill(0).map(() => new Array(n).fill(0))
+// 方案二:
+new Array.from(Array(m), () => new Array(n).fill(0))
 ```
