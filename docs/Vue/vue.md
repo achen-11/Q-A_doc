@@ -56,3 +56,47 @@ this.router.beforeEach((to, from, next) => {
 `v-for Number`在H5和小程序的表现有差异:
 - 小程序是从**0**开始
 - H5是从**1**开始
+
+# 7.实现`ctrl+s`快捷键保存和自动保存
+```html
+<template>
+  <button @click="save('button')">保存</button>
+</template>
+ 
+<script>
+ 
+export default {
+  mounted() {
+    // 监听keydown事件
+    document.addEventListener('keydown', this.saveContent)
+    // 定义计时器
+    this.timer = setInterval(() => {
+      this.save('timer')
+    }, 10 * 1000)
+  },
+ 
+  beforeDestroy() {
+    // 移除监听事件
+    document.removeEventListener('keydown', this.saveContent)
+    // 清楚计时器
+    clearInterval(this.timer)
+  },
+ 
+  methods: {
+    // 保存
+    save(type) {
+      console.log(`content saved by ${type}`)
+    },
+    // 监听的回调
+    saveContent(e) {
+      var key = window.event.keyCode ? window.event.keyCode : window.event.which
+      // 如果是ctrl+s
+      if (key === 83 && e.ctrlKey) {
+        this.save('hot key')
+        e.preventDefault() // 阻止默认事件
+      }
+    }
+  }
+}
+</script>
+```
