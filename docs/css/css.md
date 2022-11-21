@@ -32,3 +32,31 @@ background: linear-gradient(color1 , color2, colorN);
 
 ```
 ![](../img/css-3-2.png)
+
+## 4.移动端单元格解决方案
+类似效果:<br>
+![](../img/css-4.png)
+```html
+<div class="container">
+    <div class="left-img"></div>
+    <div class="center-info"></div>
+    <div class="right-icon"></div>
+</div>
+<style lang="scss">
+    .container {
+        display: flex;
+        justify-content: space-between;
+        .left-img {
+            /* 定宽高 */
+        }
+        .center-info {
+            /* 两边定宽 中间可以实现宽度自适应 */
+            flex: 1;
+            width: 100%;
+        }
+        .right-icon {
+            /* 定宽高 */
+        } 
+    }
+</style>
+```
