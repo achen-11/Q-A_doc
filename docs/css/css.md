@@ -60,3 +60,14 @@ background: linear-gradient(color1 , color2, colorN);
     }
 </style>
 ```
+
+## 5.设置小于12px字体大小
+```css
+/* 
+10px -> 10 / 12 = 0.8333
+8px  ->  8 / 12 = 0.6667
+*/
+
+font-size: 12px;
+transform: scale(0.91,0.91);
+```
