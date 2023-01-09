@@ -9,6 +9,7 @@
     - [uCharts](/uni-app/uCharts.md)
 - Node
     - [nvm](/node/nvm.md)
+    - [杂项](/node/other.md)
 - [Nginx](/Nginx/Nginx.md)
 - [DayJs](/dayJs/dayjs.md)
 - [TinyMce](/Tinymce/index.md)
