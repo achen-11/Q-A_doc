@@ -8,8 +8,10 @@
     - [uView](/uni-app/uView.md)
     - [uCharts](/uni-app/uCharts.md)
 - Node
-    - [nvm](/node/nvm.md)
-    - [杂项](/node/other.md)
+    - [nvm](/Node/nvm.md)
+    - [杂项](/Node/other.md)
+- Reids
+    - [配置](/Redis/index.md)
 - [Nginx](/Nginx/Nginx.md)
 - [DayJs](/dayJs/dayjs.md)
 - [TinyMce](/Tinymce/index.md)
